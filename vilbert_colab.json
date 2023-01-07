@@ -51,7 +51,7 @@
   "train_data_path": ["real_rus_train", "real_rus_val"],
   "validation_data_path": "real_rus_val",
   "model": {
-    "type": "vqa_vilbert_from_huggingface",
+    "type": "vqa_vilbert_from_huggingface_ru",
     "model_name": "DeepPavlov/rubert-base-cased",
     "image_feature_dim": 1024,
     "image_hidden_size": 1024,
