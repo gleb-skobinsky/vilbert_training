@@ -214,12 +214,12 @@ class VQArusReader(VisionReader):
                 "test_fixtures/vision/vqav2/questions.json"
             ),
             "real_rus_train": Split(
-                r"data\data_ru\rus_mscoco_train2014_annotations.json",
-                r"data\data_ru\rus_OpenEnded_mscoco_train2014_questions.json",
+                "data/data_ru/rus_mscoco_train2014_annotations.json",
+                "data/data_ru/rus_OpenEnded_mscoco_train2014_questions.json",
             ),
             "real_rus_val": Split(
-                r"data\data_ru\rus_mscoco_val2014_annotations.json",
-                r"data\data_ru\rus_OpenEnded_mscoco_val2014_questions.json",
+                "data/data_ru/rus_mscoco_val2014_annotations.json",
+                "data/data_ru/rus_OpenEnded_mscoco_val2014_questions.json",
             ),
         }
         # fmt: on
