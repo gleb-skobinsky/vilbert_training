@@ -18,7 +18,6 @@ from .vision_text_ru import VisionTextModelRu
 logger = logging.getLogger(__name__)
 
 
-@Model.register("vqa_vilbert")
 @Model.register(
     "vqa_vilbert_from_huggingface_ru", constructor="from_huggingface_model_name"
 )
