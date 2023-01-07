@@ -1,8 +1,8 @@
 {
   "dataset_reader": {
     "type": "vqa_rusv2",
-    "image_dir": "C:\\org\\projects\\vqa_training\\images",
-    "feature_cache_dir": "C:\\org\\projects\\vqa_training\\feature_cache",
+    "image_dir": "/content/vilbert_training/images",
+    "feature_cache_dir": "/content/vilbert_training/feature_cache",
     "image_loader": "torch",
     "image_featurizer": "resnet_backbone",
     "region_detector": "faster_rcnn",
@@ -19,14 +19,14 @@
     "image_processing_batch_size": 1,
     "answer_vocab": {
       "type": "from_files",
-      "directory": "C:\\org\\projects\\vqa_training\\answer_vocab\\vilbert_vqa_rus.deeppavlov-rubert-base-cased.vocab.tar.gz"
+      "directory": "/content/vilbert_training/answer_vocab/vilbert_vqa_rus.deeppavlov-rubert-base-cased.vocab.tar.gz"
     },
     "multiple_answers_per_question": true
   },
   "validation_dataset_reader": {
     "type": "vqa_rusv2",
-    "image_dir": "C:\\org\\projects\\vqa_training\\images",
-    "feature_cache_dir": "C:\\org\\projects\\vqa_training\\feature_cache",
+    "image_dir": "/content/vilbert_training/images",
+    "feature_cache_dir": "/content/vilbert_training/feature_cache",
     "image_loader": "torch",
     "image_featurizer": "resnet_backbone",
     "region_detector": "faster_rcnn",
@@ -40,13 +40,13 @@
         "model_name": "DeepPavlov/rubert-base-cased"
       }
     },
-    "image_processing_batch_size": 1,
+    "image_processing_batch_size": 128,
     "answer_vocab": null,
     "multiple_answers_per_question": true
   },
   "vocabulary": {
     "type": "from_files",
-    "directory": "C:\\org\\projects\\vqa_training\\answer_vocab\\vilbert_vqa_rus.deeppavlov-rubert-base-cased.vocab.tar.gz"
+    "directory": "/content/vilbert_training/answer_vocab/vilbert_vqa_rus.deeppavlov-rubert-base-cased.vocab.tar.gz"
   },
   "train_data_path": ["real_rus_train", "real_rus_val"],
   "validation_data_path": "real_rus_val",
