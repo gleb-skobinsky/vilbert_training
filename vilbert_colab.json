@@ -40,7 +40,7 @@
         "model_name": "DeepPavlov/rubert-base-cased"
       }
     },
-    "image_processing_batch_size": 1,
+    "image_processing_batch_size": 128,
     "answer_vocab": null,
     "multiple_answers_per_question": true
   },
