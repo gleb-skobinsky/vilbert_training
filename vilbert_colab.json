@@ -8,12 +8,12 @@
     "region_detector": "faster_rcnn",
     "tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "DeepPavlov/distilrubert-small-cased-conversational"
+      "model_name": "cointegrated/rubert-tiny"
     },
     "token_indexers": {
       "tokens": {
         "type": "pretrained_transformer",
-        "model_name": "DeepPavlov/distilrubert-small-cased-conversational"
+        "model_name": "cointegrated/rubert-tiny"
       }
     },
     "image_processing_batch_size": 1,
@@ -32,12 +32,12 @@
     "region_detector": "faster_rcnn",
     "tokenizer": {
       "type": "pretrained_transformer",
-      "model_name": "DeepPavlov/distilrubert-small-cased-conversational"
+      "model_name": "cointegrated/rubert-tiny"
     },
     "token_indexers": {
       "tokens": {
         "type": "pretrained_transformer",
-        "model_name": "DeepPavlov/distilrubert-small-cased-conversational"
+        "model_name": "cointegrated/rubert-tiny"
       }
     },
     "image_processing_batch_size": 16,
@@ -52,7 +52,7 @@
   "validation_data_path": "real_rus_val",
   "model": {
     "type": "vqa_vilbert_from_huggingface_ru",
-    "model_name": "DeepPavlov/distilrubert-small-cased-conversational",
+    "model_name": "cointegrated/rubert-tiny",
     "image_feature_dim": 1024,
     "image_hidden_size": 1024,
     "image_num_attention_heads": 8,
